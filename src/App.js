@@ -1,5 +1,6 @@
 
 import './App.css';
+import NotUSeCallback from './UseCallback/NotUSeCallback';
 import Parent from './UseCallback/USecallback';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <header>React Hooks</header>
       <Parent/>
+      <NotUSeCallback />
     </div>
   );
 }
